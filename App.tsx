@@ -34,7 +34,7 @@ function App() {
     return (
       <SafeAreaProvider>
         <Navigation colorScheme={colorScheme} />
-        <Text>💙 + 💛 = React Native + Amplify </Text>
+      
         <Button title="Sign Out" color="tomato" onPress={signOut} />
         <StatusBar />
       </SafeAreaProvider>
